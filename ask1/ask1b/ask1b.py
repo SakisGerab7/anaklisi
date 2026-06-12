@@ -87,6 +87,7 @@ for i, node in enumerate(nodes):
     axes[i].grid(True)
 
 plt.tight_layout()
+plt.savefig("pagerank_variation_per_node.png")
 plt.show()
 
 # ==================================
